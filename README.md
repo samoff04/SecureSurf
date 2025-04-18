@@ -46,8 +46,8 @@ Enhance ML-based detection accuracy
 Add database for phishing URL logging
 
 👨‍💻 Author : 
-Samarth Varshney
-Vinayak
+Samarth Varshney,
+Vinayak,
 Ayush Agrawal
 
 
