@@ -19,8 +19,6 @@ Frontend: HTML, CSS, JavaScript (React)
 
 Backend: Python (Flask)
 
-ML Model: Scikit-learn/ TensorFlow
-
 🧪 How It Works
 User logs in via the dashboard.
 
@@ -47,7 +45,7 @@ Enhance ML-based detection accuracy
 
 Add database for phishing URL logging
 
-👨‍💻 Author
+👨‍💻 Author : 
 Samarth Varshney
 Vinayak
 Ayush Agrawal
