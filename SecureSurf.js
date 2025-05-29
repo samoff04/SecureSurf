@@ -1,4 +1,4 @@
-<script>
+
     // Password visibility toggle
     function togglePassword() {
       const passwordField = document.getElementById('password');
@@ -363,4 +363,3 @@
       // Show the result card
       resultCard.style.display = 'block';
     }
-  </script>
