@@ -1,59 +1,81 @@
-# SecureSurf
-🔐 SecureSurf
-SecureSurf is a web-based phishing detection tool designed to help users identify and avoid suspicious or malicious websites. With an intuitive user interface and smart detection logic, SecureSurf aims to make the internet a safer place—one URL at a time. 
-🚀 Features
-🧠 Phishing Detection Logic: Uses intelligent algorithms to analyze URLs for potential phishing activity.
+# 🔐 SecureSurf – Phishing Detection Simulator
 
-🌐 Simple 2-Step UI:
+SecureSurf is a lightweight, visually appealing, and fully interactive **phishing detection simulation tool** built using HTML, CSS, and JavaScript. Designed with simplicity and educational value in mind, it lets users input URLs and see simulated phishing risk results based on a set of common detection heuristics.
 
-Login Page: Secure access with email & password.
+---
 
-URL Analysis Page: Enter any website URL and get real-time phishing risk assessment.
+## 🚀 Features
 
-📊 Clear Results: Indicates whether the URL is Safe or Phishing.
+- 🧠 **Simulated phishing detection engine** using JavaScript
+- 🌐 **Login dashboard** for user authentication (mock)
+- 🔍 Real-time URL analysis with:
+  - Domain legitimacy check
+  - HTTPS verification
+  - Blacklisted keyword scanning
+  - URL length analysis
+  - Risk score evaluation
+- 🎨 Fully responsive and modern UI
+- 🖱️ Interactive and user-friendly design
+- ⚠️ Pop-ups and alerts to inform users of phishing risk
 
-🎨 Custom GUI: Clean, responsive, and visually inspired by modern security tools.
+---
 
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript (React)
+## 🛠️ Tech Stack
 
-Backend: Python (Flask)
+| Layer        | Technology Used |
+|--------------|------------------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Logic**    | Vanilla JavaScript (No external libraries) |
+| **UI Design**| Custom CSS (Animations, Layout, Responsive) |
+| **Structure**| Multi-page (Login → Analysis Dashboard) |
+| **Assets**   | (Optional) Font Awesome Icons |
 
-🧪 How It Works
-User logs in via the dashboard.
+---
 
-Enters a URL in the phishing detection panel.
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/1ac6b8fb-ac91-44bf-bad0-ea508d625321)
+![image](https://github.com/user-attachments/assets/6202c21e-b7f3-4c33-9ef9-ef99af99ac9f)
+![image](https://github.com/user-attachments/assets/075d5d04-48a4-4427-9dc9-1a3cb15d6d41)
 
-Tool analyzes the input using multiple features (e.g., domain length, URL patterns, etc.).
+---
 
-Result is displayed: Safe ✅ or Phishing ⚠️.
+## 🧪 How It Works (Logic Overview)
 
-📸 Screenshots
+When a user enters a URL, SecureSurf simulates phishing detection by evaluating:
 
-![SS1](https://github.com/user-attachments/assets/38f0e94d-a16a-48b3-82a5-32a661b49900)
-![SS2](https://github.com/user-attachments/assets/3e329914-fe20-47d2-a4e3-e6b342d231de)
-![SS3](https://github.com/user-attachments/assets/09c9c05b-7a3c-4e3b-9b38-91617a927504)
-![SS4](https://github.com/user-attachments/assets/e8a3b173-dcc0-4563-abd2-e0820593fed8)
-![SS5](https://github.com/user-attachments/assets/44f0c1e4-8382-4744-93ff-21968397e8e6)
+- **Domain Analysis** – Checks for suspicious or misleading domain names.
+- **HTTPS Validation** – Verifies whether the URL uses HTTPS.
+- **Blacklist Keyword Matching** – Scans for common phishing-related terms (e.g., "login", "secure", "verify").
+- **URL Length Check** – Flags overly long URLs, which are often used to mask malicious intent.
+- **Risk Scoring** – Based on the combined analysis, a score is calculated and shown as Low, Medium, or High Risk.
 
-🧠 Future Improvements
-Add real-time scanning of page content
+> ⚠️ **Note**: This is a **simulation**. It does not perform real-time phishing detection or use machine learning. Intended for demo and educational purposes.
 
-Integrate browser extension version
+---
 
-Enhance ML-based detection accuracy
+## 🧩 Future Enhancements (Planned)
 
-Add database for phishing URL logging
+- 🌐 Real-time phishing detection using a backend + ML model
+- 📊 Dashboard to display history of scanned URLs
+- 🧠 Integration with a trained ML model (e.g., Logistic Regression, Random Forest)
+- 🧾 User registration & authentication system
+- 🔌 Backend via **Flask** / **Node.js**
+- ☁️ Database (MongoDB / Firebase) to store scan results
 
-👨‍💻 Author : 
-Samarth Varshney,
-Vinayak,
-Ayush Agrawal
+---
 
+# 🧠 Future Improvements
 
+- 🔍 Add **real-time scanning** of page content  
+- 🧩 Integrate **browser extension** version  
+- 🤖 Enhance **ML-based detection** accuracy  
+- 🗃️ Add **database** for phishing URL logging  
 
+---
 
+# 👨‍💻 Authors
 
-
-
+- 🧑‍💻 **Samarth Varshney**  
+- 🧑‍💻 **Vinayak**  
+- 🧑‍💻 **Ayush Agrawal**
 
